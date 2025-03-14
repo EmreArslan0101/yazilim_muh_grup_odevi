@@ -1,0 +1,30 @@
+{
+  "3_letters": [
+    "bat", "cat", "dog", "sun", "hat", "pen", "cup", "box", "key", "win",
+    "red", "run", "map", "leg", "car", "dot", "fan", "top", "log", "net",
+    "lap", "jam", "dip", "fit", "gym", "hut", "ink", "jet", "kit", "lip",
+    "man", "nap", "owl", "pit", "rug", "sip", "tan", "van", "wet", "yak",
+    "zip", "bid", "cod", "dim", "elf", "fog", "gum", "hug", "ion", "jog"
+  ],
+  "4_letters": [
+    "bike", "camp", "dark", "east", "fire", "gold", "hope", "idea", "jump", "king",
+    "lamp", "mask", "next", "open", "plan", "quiz", "rain", "safe", "time", "unit",
+    "vast", "wind", "xray", "yoga", "zone", "blue", "coin", "dive", "echo", "frog",
+    "gift", "hill", "iron", "joke", "kite", "lake", "moon", "nail", "ocean", "peel",
+    "quiz", "rope", "swan", "tape", "urge", "vote", "wave", "xeno", "yarn", "zero"
+  ],
+  "5_letters": [
+    "apple", "brave", "cloud", "dance", "eagle", "flute", "grape", "happy", "image", "jolly",
+    "kneel", "lucky", "mango", "north", "ocean", "peace", "queen", "rider", "sunny", "tiger",
+    "uncle", "vivid", "waste", "xenon", "young", "zebra", "baker", "charm", "dream", "elbow",
+    "fancy", "glove", "harsh", "inbox", "jumps", "knees", "lemon", "magic", "noble", "orbit",
+    "piano", "quiet", "round", "spice", "trick", "urban", "vocal", "whale", "yield", "zesty"
+  ],
+  "6_letters": [
+    "beacon", "candle", "damage", "effort", "frozen", "guitar", "hammer", "impact", "jigsaw", "kitten",
+    "lawyer", "marble", "napkin", "object", "pencil", "quartz", "rescue", "silent", "tunnel", "unfold",
+    "vacuum", "window", "xylate", "yonder", "zephyr", "branch", "cradle", "dollar", "empire", "finger",
+    "gospel", "harbor", "insane", "jungle", "kettle", "legend", "mantle", "nectar", "orange", "public",
+    "quiver", "rocket", "saddle", "trophy", "unreal", "violet", "wreath", "xenial", "yogurt", "zodiac"
+  ]
+}
