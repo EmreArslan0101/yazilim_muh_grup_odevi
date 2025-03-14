@@ -1,4 +1,5 @@
 import json
+import random
 
 def kelime_uzunlugu_al():
     while True:
@@ -6,6 +7,11 @@ def kelime_uzunlugu_al():
         if uzunluk in {"3", "4", "5", "6"}:
             return int(uzunluk)
         print("Geçersiz giriş! Lütfen 3, 4, 5 veya 6 girin.")
+
+def rastgele_sec(dizi):
+    if not dizi:  # Eğer dizi boşsa hata döndür
+        raise ValueError("Dizi boş olamaz!")
+    return random.choice(dizi)
 
 kelime_uzunlugu = kelime_uzunlugu_al()
 
