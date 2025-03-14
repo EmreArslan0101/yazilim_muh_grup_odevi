@@ -20,13 +20,9 @@ def oyun_sonu(kazandi, kelime):
         print(f"Oyunu kaybettiniz! Doğru kelime: {kelime}")
     exit()
 
-def kelime_tahmin_oyunu():
-    uzunluk = kelime_uzunlugu_al()
-    kelime = input(f"Lütfen {uzunluk} harfli bir kelime girin: ").strip().lower()
+def kelime_tahmin_oyunu(kelime):
 
-    if len(kelime) != uzunluk:
-        print(f"Hata! Kelime tam olarak {uzunluk} harfli olmalı.")
-        return
+    uzunluk = len(kelime)
 
     gizli_kelime = ["_"] * uzunluk
     tahmin_hakki = uzunluk
@@ -35,6 +31,10 @@ def kelime_tahmin_oyunu():
     while tahmin_hakki > 0:
         print(" ".join(gizli_kelime))
         tahmin = input("Tahmininizi girin: ").strip().lower()
+
+        if len(tahmin) != uzunluk:
+            print(f"Lütfen {uzunluk} harfli bir kelime girin.")
+            continue
 
         if tahmin == kelime:
             oyun_sonu(True, kelime)
@@ -52,5 +52,6 @@ kelime_uzunlugu = kelime_uzunlugu_al()
 with open("data.json", 'r', encoding='utf-8') as dosya:
     kelimeler = json.load(dosya)[str(kelime_uzunlugu)+"_letters"]
     kelime = rastgele_sec(kelimeler)
-    
+    kelime_tahmin_oyunu(kelime)
+
     # Oyunun geri kalanı buraya yazılacak
