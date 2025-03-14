@@ -17,4 +17,6 @@ kelime_uzunlugu = kelime_uzunlugu_al()
 
 with open("data.json", 'r', encoding='utf-8') as dosya:
     kelimeler = json.load(dosya)[str(kelime_uzunlugu)+"_letters"]
+    kelime = rastgele_sec(kelimeler)
+    
     # Oyunun geri kalanı buraya yazılacak
